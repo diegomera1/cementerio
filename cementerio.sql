@@ -186,12 +186,12 @@ From Fallecido INNER JOIN Enterrador
 ON Fallecido.Enterrador = Enterrador.Dni 
 WHERE Fallecido.Nombre = 'Alejandro';
 
-/*Consulta sobre salario de más de 500 entre los enterradores con sus datos*/
+/*Consulta sobre salario de más de 700 entre los enterradores con sus datos*/
 select 
 concat(Nombre,' ', Apellidos) as Enterrador, Dni, Telefono, Telef_Movil as Telefono_Movil, 
 concat (antiguedad, ' años')as Antiguedad, Salario
 FROM Enterrador
-WHERE Salario > 500;
+WHERE Salario > 700;
 
 /*Consulta sobre facturas de cada familia*/
 select
