@@ -189,7 +189,7 @@ WHERE Fallecido.Nombre = 'Alejandro';
 /*Consulta sobre salario de más de 500 entre los enterradores con sus datos*/
 select 
 concat(Nombre,' ', Apellidos) as Enterrador, Dni, Telefono, Telef_Movil as Telefono_Movil, 
-concat (antiguedad, ' años'), Salario
+concat (antiguedad, ' años')as Antiguedad, Salario
 FROM Enterrador
 WHERE Salario > 500;
 
